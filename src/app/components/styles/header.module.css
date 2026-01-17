@@ -1,7 +1,9 @@
 .header {
-    background-color: antiquewhite;
+    background-color: #313131;
+    padding: 1rem;
 }
 
 #title {
-    padding: 1rem;
+    font-size: clamp(1.1rem, 1.5vw, 2rem);
+    font-weight: 600;
 }
