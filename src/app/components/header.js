@@ -5,7 +5,7 @@ export default function Header({ location }) {
         <p id={styles.title}>
             {location} </p>
         <form>
-            <label></label>
+            <input type="text"></input>
         </form>
     </section>;
 }
