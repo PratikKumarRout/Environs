@@ -1,7 +1,9 @@
-export default function Header({location}) {
-    return <section>
-        <h2 style={{ padding: "5px", backgroundColor: "lightgray" }}>
-            {location}
+import styles from "./styles/header.module.css";
+
+export default function Header({ location }) {
+    return <section className={styles.header}>
+        <h2 id={styles.title}>
+            {location} 
         </h2>
     </section>;
 }
