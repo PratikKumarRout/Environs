@@ -4,20 +4,26 @@
 }
 
 #title {
-    font-size: clamp(1.1rem, 1.5vw, 3rem);
+    font-size: clamp(1.2rem, 1.5vw, 1.9rem);
     font-weight: bold;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.1em;
 }
 
 #location {
-    margin-top: 0.5rem;
-    font-size: clamp(1.2rem, 1.5vw, 2rem);
+    margin-top: 0.3rem;
+    font-size: clamp(1rem, 1.2vw, 2rem);
 }
 
 .searchSection {
     display: flex;
     margin: auto;
-    justify-content: center;
+    justify-content: space-between;
     align-items: baseline;
-    gap: 3%;
+    
+}
+
+#searchButton {
+    background: transparent;
+    border-radius: 50%;
+    font-size: clamp(1rem, 1vw, 1.5rem);
 }
