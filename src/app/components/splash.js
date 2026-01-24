@@ -1,6 +1,10 @@
+import styles from "./styles/splash.module.css";
+
 function Splash() {
     return<>
-    <p>environs</p>
+    <div className={styles.container}>
+        <p id={styles.title}>environs</p>
+    </div>
     </>;
 }
 

@@ -1,0 +1,26 @@
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#title {
+    font-size: clamp(1.5rem, 8vw, 3rem);
+    font-weight: bold;
+    font-variant: small-caps;
+    animation-name: splashAnimation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes splashAnimation {
+    from {
+        letter-spacing: 0;
+    }
+
+    to {
+        letter-spacing: 0.5rem;
+    }
+}
