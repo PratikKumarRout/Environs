@@ -1,17 +1,9 @@
 .header {
     background-color: #313131;
     padding: 0.5rem;
-}
-
-#title {
-    font-size: clamp(1.2rem, 1.5vw, 1.9rem);
+    font-size: clamp(1.2rem, 1.2vw, 1.9rem);
+    letter-spacing: 0.1rem;
     font-weight: bold;
-    letter-spacing: 0.1em;
-}
-
-#location {
-    margin-top: 0.3rem;
-    font-size: clamp(1rem, 1.2vw, 2rem);
 }
 
 .searchSection {
@@ -19,7 +11,7 @@
     margin: auto;
     justify-content: space-between;
     align-items: baseline;
-    
+
 }
 
 #searchButton {
